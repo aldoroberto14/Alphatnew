@@ -40,7 +40,7 @@ class LineAPI {
     path: this.config.LINE_HTTP_URL,
     https: true
   }) {
-    options.headers['X-Line-Application'] = 'DESKTOPMAC 10.10.2-YOSEMITE-x64 MAC 4.5.0';
+    options.headers['X-Line-Application'] = 'IOSPAD\t7.14.0\tiPhone OS\t10.12.0';
 	if(this.axz === true){
 		options.headers['X-Line-Access'] = this.config.tokenn;
 		options.path = this.config.LINE_CHANNEL_PATH;
